@@ -1,11 +1,6 @@
-<template>
-
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-
-</template>
 <script>
+import Navbar from "../components/Navbar.vue"
+
 import axios from 'axios';
     try{
         axios.get("https://fakestoreapi.com/products")
@@ -22,3 +17,10 @@ import axios from 'axios';
   
 
 </script>
+<template>
+
+<h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+
+</template>
